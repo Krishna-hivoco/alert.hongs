@@ -1,0 +1,29 @@
+{
+  "name": "hongalert",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "store-client": "node store-client.js",
+    "dev": "nodemon server.js",
+    "setup-db": "node setup-database.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1",
+    "network-speed": "^2.1.1",
+    "node-cron": "^4.1.1",
+    "nodemailer": "^7.0.4",
+    "systeminformation": "^5.27.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
